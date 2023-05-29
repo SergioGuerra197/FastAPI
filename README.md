@@ -2,7 +2,7 @@
 
 Proyecto para practica de Framework de fastAPI, se ejecutará un CRUD con protocolos HTTP, en este caso usando fastAPI, la ejecución sera por medio de uvicorn.
 
-# Ejecucion
+# Ejecucion en Windows
 
 Para la correcta ejecucion de este proyecto se deja las instrucciones en el siguiente segmento del README, estos comandos se ejecutan en la consola de comandos, en la ubicacion en la que se quiera el proyecto, reemplazando URL por el link del repositorio.
 
