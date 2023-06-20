@@ -48,7 +48,7 @@ def get_movie_by_id(id : int):
 
 
 
-#Parametros Query
+#Parametros Query son parametros clave valor, si no especifico el parametro en la ruta FastAPI va a requerir una variable Query
 @app.get('/movies/', tags=['movies'])
 def get_movies_by_category(categoria: str, year: int):   
     return [item for item in movies if ['category'] == categoria ]
